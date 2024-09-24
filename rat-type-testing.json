@@ -1,0 +1,147 @@
+test one (balance too high)
+{
+    "balance": 21064,
+    "fuzzified": 5297,
+    "ontheloose": 9854,
+    "illustrious": 9773,
+    "pea": 2232,
+    "gardens": 3499,
+    "pickleleaf": 9616,
+    "chippednose": 2913,
+    "cowappreciator": 10767,
+    "truthknowledge": 1654,
+    "anime": 2011,
+    "bald": 4046,
+    "heart": 4629,
+    "mouse": 2053,
+    "vaseline": 2069,
+    "itch": 676,
+    "swivel": 3267,
+    "looking": 1354,
+    "stickytape": 1542,
+    "deceit": 563,
+    "grudge": 573,
+    "truerat": 298,
+    "four": 138,
+    "doesntknow": 111,
+    "notrat": 1
+}
+
+test two
+{
+    "fuzzified": 6166,
+    "ontheloose": 10877,
+    "illustrious": 10794,
+    "truthknowledge": 2113,
+    "pickleleaf": 10731,
+    "pea": 2605,
+    "cowappreciator": 12089,
+    "chippednose": 3283,
+    "deceit": 612,
+    "gardens": 3865,
+    "looking": 1613,
+    "heart": 5166,
+    "balance": 10667,
+    "bald": 4853,
+    "grudge": 569,
+    "mouse": 2262,
+    "anime": 2431,
+    "swivel": 3992,
+    "itch": 681,
+    "vaseline": 2281,
+    "stickytape": 1760,
+    "truerat": 287,
+    "doesntknow": 125,
+    "four": 172,
+    "notrat": 6
+}
+
+final?
+{
+    "heart": 4982,
+    "illustrious": 10527,
+    "cowappreciator": 11434,
+    "truthknowledge": 1912,
+    "balance": 12400,
+    "anime": 2243,
+    "gardens": 3669,
+    "pickleleaf": 10582,
+    "ontheloose": 10546,
+    "bald": 4661,
+    "fuzzified": 5886,
+    "chippednose": 3172,
+    "mouse": 2255,
+    "swivel": 3823,
+    "four": 1542,
+    "pea": 2558,
+    "looking": 1598,
+    "vaseline": 2212,
+    "itch": 664,
+    "stickytape": 1730,
+    "deceit": 648,
+    "grudge": 560,
+    "truerat": 293,
+    "doesntknow": 101,
+    "notrat": 2
+}
+
+out of 10,000,000
+{
+    "pickleleaf": 1053865,
+    "heart": 500364,
+    "cowappreciator": 1150404,
+    "fuzzified": 596689,
+    "ontheloose": 1049339,
+    "bald": 462235,
+    "illustrious": 1051101,
+    "four": 145282,
+    "pea": 254423,
+    "balance": 1242484,
+    "chippednose": 318488,
+    "gardens": 376860,
+    "swivel": 377012,
+    "anime": 228013,
+    "itch": 65650,
+    "mouse": 226190,
+    "looking": 159693,
+    "stickytape": 168734,
+    "deceit": 60194,
+    "vaseline": 223864,
+    "truthknowledge": 194210,
+    "grudge": 55356,
+    "truerat": 28387,
+    "doesntknow": 10770,
+    "notrat": 393
+}
+
+
+{    
+    "balance": 12.42,
+    "illustrious": 10.5,
+    "cowappreciator": 11,
+    "pickleleaf": 10,
+    "ontheloose": 10,   
+    
+    "fuzzified": 6,
+    "heart": 5,
+    "bald": 5,
+    "swivel": 3.77,
+    "gardens": 3.76,
+    "chippednose": 3.18,
+    
+    "pea": 2.5,
+    "anime": 2.28,
+    "mouse": 2.261,
+    "vaseline": 2.23,
+    "truthknowledge": 1.9,
+    "stickytape": 1.687,
+    
+    "looking": 1.596,
+    "four": 1,
+    "itch": 0.656,
+    "deceit": .60,
+    "grudge": 0.55,
+    "truerat": 0.28
+    "doesntknow": 0.11,
+    "notrat": .004
+}

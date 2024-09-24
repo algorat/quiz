@@ -1,0 +1,120 @@
+Pickle Leaf Rat
+  Sunny, Quaint
+  
+  You enjoy nature and all things quaint. You seek to forge your own path in the world but you always make sure that path is in the sun! 
+
+Chipped Nose Rat
+  Planner, laissez-faire
+  
+  You are prepared for any circumstance you find yourself in. You can always be found with a dorito hidden in your nostril in case you find need of a snack, and you almost always wear your backpack or have at least 12 filled pockets incorporated into your outfit so that any tool you may need is as easily accessible as your sense of propriety and situational acumen.
+
+Not Rat
+  high mystery, below <20 everything else
+  
+  What are you? How did you get there... You are no rat. Nor are you a mouse. You dont even look like your even a rodent.... 
+
+
+Mouse Rat
+  friendly, charisma, small(???)
+
+  So small an demure! You are dantier than your counterparts but no less a tour-de-force. You can nibble your way through any situation and charm your self through any conversation.
+
+
+True Rat
+  feral > 40 (scales score based on 40 - 50)
+  You are a rat who has fought of the preassure of domestication which can befall many a civilization dweller. You follow the beat of your own drum. you sometimes walk on all fours. You respect your ancestors with an imensity that most reserve for only cheese.
+
+Sticky Tape Rat
+smelly, collector, indecisive
+  You are a collector of all things because you are sentimental and like to keep trinkets to remind yourself of your past fond memories. You are so busy keeping track of your memories that you forget to shower sometimes but that is ok because scrapbooking comes first.
+
+4x4 Rat
+high maverick, low finer things in life
+  You live life simply
+
+
+360 Swivel Head Rat / full rotation rat  / swivel headed
+collector, literate, community-oriented
+  You live in a constant state of awareness and wonder. As soon as you hear something you open your ears for the next bit of fresh juicy gossip. You collect troves of newspapers and take audio-notes anytimes something happens to anything around you. You are a big fan of all five primary senses and are working on cultivating 11 new senses minimum.
+
+Illustrious
+  finer-thing-in-life, collector
+
+  You are a believer in the finer things in life, and in stopping to smell the roses.
+
+
+Fuzzified Rat
+armor, creature of habit, hermit
+  Nothing is lovelier and simpler than a cozy life. Fuzzy socks and soft blankets and pillows and warm glasses of hot chocolate bring you a joy and calm unparallelled. May your fondue fountain never run empty
+
+Bald Rat
+  Shame, trying their best
+
+  You oscillate between pure shame and pure freedom but you have never felt better. You try your best every day regardless of the hair on your head. Some rats lose their hair to natural causes and others shave their heads by choice, but you are bald through destiny alone
+
+Vaseline rat
+  Armor, smelly
+  
+  You make sure to always be moist - taking care of your pheromones are the most important part of your life. You believe your sweat is imbued with powers that have won you many a victory in your career and you intend on contining your moisturization joureny all the way to the top
+
+Itchy rat
+  Hater, confrontational
+  
+  You are soooo itchy... is it allergies? bad vibes? maybe karma? Your constant itch has you blaming any pausible cause and you often find yourself overthinking, hating, and letting your anger fester. This is an itch that is more than skin deep, an itch that transcends itchiness, and an itch that makes those around you itchy.
+
+The Grudge Collector
+  Full Hater MAX HATER and also maybe collector but hater, non-confrontational
+  You love to spend your nights keeping score of those who have wronged you. Your hate does not stop at individuals as you make sure to track the stock prices of companies that you hate aswell. You are looking for enemies and are holding auditions every minute of every day. Despite all your efforts, You would never as a nemesis or adversary lest your opponent try to redeem themselves in your eyes.
+
+Rat of the Heart
+  Looking for love MAXXING
+  You are looking for love!!! where are they? you are earnestly applying your energies towards finding a partner or two who will understand you fully 
+
+Rat of Balance (stats are perfectly balanced)
+
+  You! You are so well balanced! like a trapeze artist of the mind. For every skill you advance in, you're skill in its oposite increases aswell. For every penny you save, there is a penny you spend. You are at complete harmony with yourself and are utterly in touch with the world around you, which alows you to interact with it in perfect symbiosis.
+
+Rat of Truth and Knowledge
+  Literate, Honest, So Smart, free-thinker
+
+  There is nary a rat as smart as thou! Thy thoughts reak of pure knowing, and thine ego is pure. Lest any rat of feeble mine feign to beseech thee for an answer to a riddle or to lifes mysteries, you would humbly provide the answer in such a noble and steadfast manner.
+
+Rat on the Loose
+  Risk-taker, (low traditional? - i think just one trait is fine)
+
+  Who did that?? It was you! You dart about town causing occurences and spawning calamity. Any task deamed difficult is a task you must undertake, and any risky passtime is a hobby you can't help but try. You never subscribed to the confines of 'better safe than sorry', and you don't plan on ever changing.
+
+Rat who is looking
+  
+  Why would anyone ever close your eyes? You certainly would never do anything of the sort. You are aware of every movement and every possible forthcoming circumstance
+
+Princess-and-the-pea rat
+demanding, charisma
+
+  You have many demands but those around you cannot wait to fullfill those demands. To be loved and catered to is your destiny and your dream.
+
+anime rat
+  Mysterious, Charismatic
+
+  Your eyes always sparkle, and your hobbies are so mysterious. You sustain your individuality by culminating vibes of peak-intrigue, but you never let anyone close enough to get any real answers, thereby multiplying your mysteriosity tenfold
+
+Rat of the Gardens
+  sunny, punctual, 
+
+
+
+Rat that does not know Themselves
+  All Scores ten or less
+
+
+Rat of Deceit
+  Low Honesty, High Charisma, high criminal
+
+  Why would you tell the truth when you could do the opposite?
+
+Cow Appreciator
+  Dairy, creative
+  You believe dairy is the highest form of art and cows are the artist. You love to watch and appreciate cows
+
+
+pickleleaf","notrat","chippednose","mouse","truerat","stickytape","fuzzified","bald","grudge","balance","truthknowledge","looking","ontheloose","pea","anime","vaseline","itch","heart","illustrious","swivel","four","cowappreciator","deceit","doesntknow","gardens",

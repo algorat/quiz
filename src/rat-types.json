@@ -1,0 +1,244 @@
+{
+  "types": [
+    {
+      "id": "pickleleaf",
+      "name": "Pickle Leaf Rat",
+      "attributes": ["sunny", "quaint"],
+      "description": "You enjoy nature and all things quaint. You seek to forge your own path in the world but you always make sure that path is in the sun!",
+      "friend": ["gardens", "mouse"],
+      "enemies": ["itchy"]
+    },
+    {
+      "id": "notrat",
+      "name": "Not Rat",
+      "description": "What are you? How did you get there... You are no rat. Nor are you a mouse. You dont even look like your even a rodent....",
+      "friend": ["doesntknow"],
+      "enemies": ["truerat"]
+    },
+
+    {
+      "id": "chippednose",
+      "name": "Chipped-nose Rat",
+      "attributes": ["planner", "laissez-faire"],
+      "description": "You are prepared for any circumstance you find yourself in. You can always be found with a dorito hidden in your nostril in case you find need of a snack, and you almost always wear your backpack or have at least 12 filled pockets incorporated into your outfit so that any tool you may need is as easily accessible as your sense of propriety and situational acumen.",
+      "friend": ["pickleleaf"],
+      "enemies": []
+    },
+
+    {
+      "id": "mouse",
+      "name": "Mouse Rat",
+      "attributes": ["friendly", "charisma"],
+      "description": "So small an demure! You are dantier than your counterparts but no less a tour-de-force. You can nibble your way through any situation and charm your self through any conversation.",
+      "friend": [],
+      "enemies": []
+    },
+
+    {
+      "id": "truerat",
+      "name": "True Rat",
+      "description": "You are a rat who has fought of the preassure of domestication which can befall many a civilization dweller. You follow the beat of your own drum. you sometimes walk on all fours. You respect your ancestors with an imensity that most reserve for only cheese.",
+      "friend": ["stickytape", "fuzzified", "cowappreciator"],
+      "enemies": []
+    },
+
+    {
+      "id": "stickytape",
+      "name": "Sticky Tape Rat",
+      "attributes": ["smelly", "indecisive", "collector"],
+      "description": "You are a collector of all things because you are sentimental and like to keep trinkets to remind yourself of your past fond memories. You are so busy keeping track of your memories that you forget to shower sometimes but that is ok because scrapbooking comes first.",
+      "friend": ["vaseline"],
+      "enemies": ["vaseline"]
+    },
+
+    {
+      "id": "fuzzified",
+      "name": "Fuzzified Rat",
+      "attributes": ["armor", "creature of habit", "hermit"],
+      "description": "Nothing is lovelier and simpler than a cozy life. Fuzzy socks and soft blankets and pillows and warm glasses of hot chocolate bring you a joy and calm unparallelled. May your fondue fountain never run empty. Your fur is your armor, your comfort is your shield, and your warm beverage is your sword.",
+      "friend": ["grudge"],
+      "enemies": ["bald"]
+    },
+
+    {
+      "id": "bald",
+      "name": "Bald Rat",
+      "attributes": ["shame", "trying their best"],
+      "description": "You oscillate between pure shame and pure freedom but you have never felt better. You try your best every day regardless of the hair on your head. Some rats lose their hair to natural causes and others shave their heads by choice, but you are bald through destiny alone",
+      "friend": ["grudge"],
+      "enemies": ["fuzzified", "gardens"]
+    },
+
+    {
+      "id": "grudge",
+      "name": "The Grudge Collector",
+      "description": "You love to spend your nights keeping score of those who have wronged you. Your hate does not stop at individuals as you make sure to track the stock prices of companies that you hate aswell. You are looking for enemies and are holding auditions every minute of every day. Despite all your efforts, You would never as a nemesis or adversary lest your opponent try to redeem themselves in your eyes.",
+      "friend": ["anime"],
+      "enemies": [
+        "pickleleaf",
+        "notrat","grudge",
+        "chippednose",
+        "mouse",
+        "truerat",
+        "stickytape",
+        "fuzzified",
+        "bald",
+        "balance",
+        "truthknowledge",
+        "looking",
+        "ontheloose",
+        "pea",
+        "anime",
+        "vaseline",
+        "itch",
+        "heart",
+        "illustrious",
+        "swivel",
+        "four",
+        "cowappreciator",
+        "deceit",
+        "doesntknow",
+        "gardens"
+      ]
+    },
+
+    {
+      "id": "balance",
+      "name": "Rat of Balance",
+      "description": "You! You are so well balanced! like a trapeze artist of the mind. For every skill you advance in, you're skill in its oposite increases aswell. For every penny you save, there is a penny you spend. You are at complete harmony with yourself and are utterly in touch with the world around you, which alows you to interact with it in perfect symbiosis.",
+      "friend": ["truthknowledge", "doesntknow"],
+      "enemies": ["pea"]
+    },
+
+    {
+      "id": "truthknowledge",
+      "name": "Rat of Truth and Knowledge",
+      "attributes": ["literate", "honest", "so smart", "free-thinker"],
+      "description": "There is nary a rat as smart as thou! Thy thoughts reak of pure knowing, and thine ego is pure. Lest any rat of feeble mine feign to beseech thee for an answer to a riddle or to lifes mysteries, you would humbly provide the answer in such a noble and steadfast manner.",
+      "friend": ["looking", "swivel"],
+      "enemies": ["deceit"]
+    },
+
+    {
+      "id": "looking",
+      "name": "Rat who is looking",
+      "attributes": ["community-oriented", "curious"],
+      "description": "Why would anyone ever close your eyes? You certainly would never do anything of the sort. You are aware of every movement and every possible forthcoming circumstance",
+      "friend": ["swivel"],
+      "enemies": ["doesntknow"]
+    },
+
+    {
+      "id": "ontheloose",
+      "name": "Rat on the Loose",
+      "attributes": ["risk-taker"],
+      "description": "Who did that?? It was you! You dart about town causing occurences and spawning calamity. Any task deamed difficult is a task you must undertake, and any risky passtime is a hobby you can't help but try. You never subscribed to the confines of 'better safe than sorry', and you don't plan on ever changing.",
+      "friend": ["deceit"],
+      "enemies": ["gardens", "pea"]
+    },
+
+    {
+      "id": "pea",
+      "name": "The Princess-and-the-Pea Rat",
+      "attributes": ["demanding", "charisma"],
+      "description": "You have many demands but those around you cannot wait to fullfill those demands. To be loved and catered to is your destiny and your dream.",
+      "friend": ["deceit", "anime"],
+      "enemies": ["fuzzified"]
+    },
+
+    {
+      "id": "anime",
+      "name": "Anime Rat",
+      "attributes": ["mysterious", "charisma"],
+      "description": "Your eyes always sparkle, and your hobbies are so mysterious. You sustain your individuality by culminating vibes of peak-intrigue, but you never let anyone close enough to get any real answers, thereby multiplying your mysteriosity tenfold",
+      "friend": ["four"],
+      "enemies": []
+    },
+
+    {
+      "id": "vaseline",
+      "name": "Vaseline Rat",
+      "attributes": ["smelly", "armor"],
+      "description": "You make sure to always be moist - taking care of your pheromones are the most important part of your life. You believe your sweat is imbued with powers that have won you many a victory in your career and you intend on contining your moisturization joureny all the way to the top",
+      "friend": ["itchy"],
+      "enemies": []
+    },
+
+    {
+      "id": "itch",
+      "name": "Itchy Rat",
+      "description": "You are soooo itchy... is it allergies? bad vibes? maybe karma? Your constant itch has you blaming any pausible cause and you often find yourself overthinking, hating, and letting your anger fester. This is an itch that is more than skin deep, an itch that transcends itchiness, and an itch that makes those around you itchy.",
+      "friend": [],
+      "enemies": []
+    },
+
+    {
+      "id": "heart",
+      "name": "Rat of the Heart",
+      "attributes": ["looking for love"],
+      "description": "You are looking for love!!! where are they? you are earnestly applying your energies towards finding a partner or two who will understand you fully ",
+      "friend": [],
+      "enemies": []
+    },
+
+    {
+      "id": "illustrious",
+      "name": "A Truly Illustrious Rat",
+      "attributes": ["finer things in life", "collector"],
+      "description": "You are a believer in the finer things in life, and in stopping to smell the roses.",
+      "friend": [],
+      "enemies": []
+    },
+
+    {
+      "id": "swivel",
+      "name": "Swivel Headed Rat (360)",
+      "attributes": ["collector", "literate", "community-oriented"],
+      "description": "You live in a constant state of awareness and wonder. As soon as you hear something you open your ears for the next bit of fresh juicy gossip. You collect troves of newspapers and take audio-notes anytimes something happens to anything around you. You are a big fan of all five primary senses and are working on cultivating 11 new senses minimum.",
+      "friend": [],
+      "enemies": []
+    },
+
+    {
+      "id": "four",
+      "name": "2x2px Rat",
+      "description": "You live life simply. When others look into your eyes, they see a peace and tranquility that has been brought about by existing simply and by not forming thoughts. They are inspired by what they see. Do not read too much into this result.",
+      "friend": [],
+      "enemies": []
+    },
+
+    {
+      "id": "cowappreciator",
+      "name": "Cow Appreciator",
+      "attributes": ["dairy", "creative"],
+      "description": "You believe dairy is the highest form of art and cows are the artist. You love to watch and appreciate cows, you wish one day to be like them. How you would love to sit in the pastures. How you long to have spots, hooves, and hornes. You admire their aesthetic and their sense of self, and they serve as endless inspiration for your creative persuits. The cows are the muses of your life and of your heart",
+      "friend": [],
+      "enemies": []
+    },
+
+    {
+      "id": "deceit",
+      "name": "Rat of Deceit",
+      "description": "Why would you tell the truth when you could do the opposite? You bend the facts to fit your fancy. You use your charisma to charm your peers. You preform trickery that beguiles onlookers. You convince others of your opinions and pay no heed to the laws of society or government.",
+      "friend": [],
+      "enemies": []
+    },
+
+    {
+      "id": "doesntknow",
+      "name": "Rat that does not know themselves",
+      "description": "You are certain that you are a rat, but that is all you are certain of. You do not know if you are funny or honest or charming. You just can't tell. Thats fine though! It is possible to be a lot of things at once, but it is also possible to avoid commiting yourself to any characteristics. Maybe one day you will grow into a preference or a habit, but today is not that day",
+      "friend": [],
+      "enemies": []
+    },
+
+    {
+      "id": "gardens",
+      "name": "Rat of the Gardens",
+      "attributes": ["sunny", "punctual"],
+      "description": "You spend your days amongst the rosebushes and the prestine fountains found within the sprawling gardens of your estate. Your perfectly curated florals bring forth birds with perfectly curated feathers, and when these perfectly curated birds arrive they whistle a jovial tune as if to say that it is always tea-time somewhere! This is perfectly convenient as your garden has a tea-tray and a marble table ready for you to sit and enjoy your earl gray.",
+      "friend": [],
+      "enemies": []
+    }
+  ]
+}

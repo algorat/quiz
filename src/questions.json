@@ -1,0 +1,923 @@
+{
+  "questions": [
+    {
+      "question": "What is your favorite type of cheese?",
+      "answers": [
+        {
+          "response": "A soft luxuriously chop of brie",
+          "traits": {
+            "finer things in life": 10,
+            "non-confrontational": 5
+          }
+        },
+        {
+          "response": "A Smelly-good Fragrant gorgonzola blue cheese crisp with the mold of the finest blend",
+          "traits": {
+            "smelly": 5,
+            "risk-taker": -5,
+            "feral": 4
+          }
+        },
+        {
+          "response": "I will eat anything! Please provide me with some slices immediately",
+          "traits": {
+            "demanding": 10,
+            "laissez-faire": 10,
+            "punctual": 5,
+            "curious": 5,
+            "feral": 7
+          }
+        },
+        {
+          "response": "I am lactose Intolerant",
+          "traits": {
+            "dairy": -10
+          }
+        },
+        {
+          "response": "I am not lactose Intolerant, but I despise cheese with every fiber of my being",
+          "traits": {
+            "traditional": -15,
+            "free-thinker": 5,
+            "hater": 5,
+            "feral": -1
+          }
+        }
+      ]
+    },
+    {
+      "question": "How do you like to operate your laptop?",
+      "answers": [
+        {
+          "response": "I'm using my phone...",
+          "traits": {
+            "traditional": -5,
+            "creature of habit": 5
+          }
+        },
+        {
+          "response": "I use the trackpad",
+          "traits": {
+            "non-confrontational": 5,
+            "risk-taker": 5
+          }
+        },
+        {
+          "response": "I use a mouse",
+          "traits": {
+            "traditional": 5
+          }
+        },
+        {
+          "response": "I only use the keyboard",
+          "traits": {
+            "traditional": -5,
+            "curious": 5
+          }
+        }
+      ]
+    },
+    {
+      "question": "How often do you enjoy the joys of a good book?",
+      "answers": [
+        {
+          "response": "I have never enjoyed this",
+          "traits": {
+            "stoic": 5,
+            "honest": 5,
+            "traditional": -5,
+            "literate": -5,
+            "feral":2
+          }
+        },
+        {
+          "response": "I read a book whenever I have the chance, and regularly tally up at least 12 completed books on any given weekday",
+          "traits": {
+            "so smart": 10,
+            "literate": 20,
+            "planner": 5,
+            "curious": 5
+          }
+        },
+        {
+          "response": "I prefer to use the pages of my books to create origami sculptures",
+          "traits": {
+            "creative": 5,
+            "traditional": -5,
+            "feral":4
+          }
+        },
+        {
+          "response": "I read every once in a while",
+          "traits": {
+            "quaint": 10,
+            "literate": 5,
+            "so smart": 2
+          }
+        }
+      ]
+    },
+    {
+      "question": "Best mode of transportation?",
+      "answers": [
+        {
+          "response": "roller-blade",
+          "traits": {
+            "creative": 5
+          }
+        },
+        {
+          "response": "pogo stick",
+          "traits": {
+            "free-thinker": 10
+          }
+        },
+        {
+          "response": "hotwheel",
+          "traits": {
+            "risk-taker": 10
+          }
+        },
+        {
+          "response": "other rats carrying me around",
+          "traits": {
+            "quaint": 10,
+            "so smart": 5,
+            "finer thing in life": 10,
+            "feral":2
+          }
+        },
+        {
+          "response": "vroom vroom (one-wheels)",
+          "traits": {
+            "traditional": 5
+          }
+        }
+      ]
+    },
+    {
+      "question": "What is your favorite weather",
+      "answers": [
+        {
+          "response": "Sunny! I love the sun sun sun!",
+          "traits": {
+            "sunny": 15
+          }
+        },
+        {
+          "response": "I love the moon",
+          "traits": {
+            "mysterious": 3,
+            "free-thinker": 3,
+            "hermit": 10
+          }
+        },
+        {
+          "response": "The snow",
+          "traits": {
+            "risk-taker": 8
+          }
+        },
+        {
+          "response": "Rain",
+          "traits": {
+            "free-thinker": 5
+          }
+        },
+        {
+          "response": "I am a Hail connoisseur, and I keep samples in my freezer",
+          "traits": {
+            "creative": 10,
+            "collector": 10
+          }
+        }
+      ]
+    },
+    {
+      "question": "The day finally arrives for you to leave home and make your way in the world. What is your chosen path?",
+      "answers": [
+        {
+          "response": "I will put on my suit and drive until I find an office, where I will then put on my tie, and claim a desk and a paycheck.",
+          "traits": {
+            "traditional": 10,
+            "so smart": 5,
+            "creature of habit": 10,
+            "risk-taker": -5,
+            "demanding": 10
+          }
+        },
+        {
+          "response": "I shall find the nearest bank and ask if they will allow me a small salary, which I will use to purchase one home and twenty groceries. From there, I shall earn a living through honest means and honest work.",
+          "traits": {
+            "traditional": 5,
+            "risk-taker": 5,
+            "honest": 5,
+            "literate": 5
+          }
+        },
+        {
+          "response": "I must go west, to the mountains. I shall climb to the highest peak in my sight, and when I am there, I will assess if there are any nearby mountains taller than this one. Once I am certain that I am as high up as I can go, I will build a small home, and gaze at the stars for the rest of my days",
+          "traits": {
+            "maverick": 5,
+            "competitive": 10,
+            "hermit": 10,
+            "sunny": 2,
+            "quaint": 5,
+            "feral":2
+          }
+        },
+        {
+          "response": "I must away to the ocean! I wish to swim with the salty fishes and hopefully I shall meet a mermaid",
+          "traits": {
+            "mysterious": 5,
+            "traditional": -10,
+            "quaint": 5,
+            "laissez-faire": 5,
+            "sunny": 5,
+            "out of touch": 5,
+            "feral":3
+          }
+        },
+        {
+          "response": "I will become a renowned creator of content",
+          "traits": {
+            "mysterious": -10,
+            "maverick": 5,
+            "creative": 5
+          }
+        }
+      ]
+    },
+    {
+      "question": "Do you brush your teeth before flossing or floss your teeth before brushing?",
+      "answers": [
+        {
+          "response": "I do not brush as I am always mid cheese-nibbling",
+          "traits": {
+            "smelly": 10,
+            "feral":7
+          }
+        },
+        {
+          "response": "I brush first",
+          "traits": {
+            "traditional": 5
+          }
+        },
+        {
+          "response": "I brush only",
+          "traits": {
+            "risk-taker": 5
+          }
+        },
+        {
+          "response": "I floss first",
+          "traits": {
+            "traditional": 3
+          }
+        },
+        {
+          "response": "I only floss",
+          "traits": {
+            "risk-taker": 8,
+            "smelly": 10
+          }
+        },
+        {
+          "response": "I wrap my teeth in floss so they are protected at all times",
+          "traits": {
+            "armor": 10,
+            "mysterious": 5,
+            "creative": 5,
+            "feral":2
+          }
+        }
+      ]
+    },
+    {
+      "question": "What is the best way to cook an egg?",
+      "answers": [
+        {
+          "response": "Fried egg",
+          "traits": {
+            "traditional": 10,
+            "finer things in life": 3
+          }
+        },
+        {
+          "response": "Sunny Side up",
+          "traits": {
+            "friendly": 5,
+            "sunny": 10
+          }
+        },
+        {
+          "response": "Raw Egg",
+          "traits": {
+            "maverick": 5,
+            "feral": 7,
+            "indecisive": 5
+          }
+        },
+        {
+          "response": "poached",
+          "traits": {
+            "quaint": 5
+          }
+        },
+        {
+          "response": "scrambled",
+          "traits": {
+            "creative": 5
+          }
+        },
+        {
+          "response": "omlette",
+          "traits": {
+            "creative": 5
+          }
+        },
+        {
+          "response": "a la mode",
+          "traits": {
+            "free-thinker": 6,
+            "mysterious": 5,
+            "out of touch": 5
+          }
+        }
+      ]
+    },
+    {
+      "question": "What is 5+10*20-3?",
+      "answers": [
+        {
+          "response": "255",
+          "traits": {
+            "trying their best": 4
+          }
+        },
+        {
+          "response": "202",
+          "traits": {
+            "so smart": 10
+          }
+        },
+        {
+          "response": "297",
+          "traits": {
+            "maverick": 5
+          }
+        }
+      ]
+    },
+    {
+      "question": "If you could invent anything, what would it be?",
+      "answers": [
+        {
+          "response": "a book where each chapter turns into a slice of pizza when I finish reading it, so that I may be rewarded with a nice snack",
+          "traits": {
+            "smelly": 5,
+            "collector": 5,
+            "literate": 10,
+            "finer things in life": 5
+          }
+        },
+        {
+          "response": "cheese boomerang",
+          "traits": {
+            "smelly": 5,
+            "dairy": 20,
+            "feral": 2
+          }
+        },
+        {
+          "response": "self-steeping tea",
+          "traits": {
+            "quaint": 5,
+            "finer things in life": 5
+          }
+        },
+        {
+          "response": "two tortillas fried with cheese in the middle",
+          "traits": {
+            "dairy": 20,
+            "traditional": 5
+          }
+        },
+        {
+          "response": "Shoes that change height so that I'm as tall as whomever I'm talking with",
+          "traits": {
+            "free-thinker": 5,
+            "so smart": 5,
+            "competitive": 5
+          }
+        }
+      ]
+    },
+    {
+      "question": "When was the last time you took time for yourself?",
+      "answers": [
+        {
+          "response": "always. I am a self-care mogul.",
+          "traits": {
+            "finer things in life": 10,
+            "charisma": 4
+          }
+        },
+        {
+          "response": "Just enough time to take this quiz",
+          "traits": {
+            "demanding": 5,
+            "planner": 5,
+            "punctual": 5
+          }
+        },
+        {
+          "response": "I am a creature of community and all of my time is shared with others",
+          "traits": {
+            "community-oriented": 10,
+            "friendly": 10
+          }
+        },
+        {
+          "response": "I do not because if I did I would be too powerful",
+          "traits": {
+            "mysterious": 5,
+            "maverick": 5
+          }
+        },
+        {
+          "response": "I don't rest so I am always a step ahead of the competition",
+          "traits": {
+            "competitive": 10,
+            "trying their best": 4
+          }
+        }
+      ]
+    },
+    {
+      "question": "What is your favorite way to tie your shoes?",
+      "answers": [
+        {
+          "response": "The classic Way",
+          "traits": {
+            "traditional": 10
+          }
+        },
+        {
+          "response": "Double knot",
+          "traits": {
+            "armor": 10,
+            "planner": 5,
+            "trying their best": 5
+          }
+        },
+        {
+          "response": "Shoes remain untied",
+          "traits": {
+            "maverick": 5,
+            "indecisive": 5
+          }
+        },
+        {
+          "response": "Butler ties them for me",
+          "traits": {
+            "traditional": 5,
+            "out of touch": 10
+          }
+        },
+        {
+          "response": "Tie them together",
+          "traits": {
+            "feral": 5
+          }
+        }
+      ]
+    },
+    {
+      "question": "You have to dance! Quick!!!",
+      "answers": [
+        {
+          "response": "I will break dance. I've practiced for twelve years in secret",
+          "traits": {
+            "mysterious": 5,
+            "charisma": 5,
+            "collector": 10
+          }
+        },
+        {
+          "response": "I will release the hidden trapeze in my ceiling and share my talents",
+          "traits": {
+            "mysterious": 3,
+            "maverick": 5
+          }
+        },
+        {
+          "response": "A ballet sonata will be danced post-haste!",
+          "traits": {
+            "traditional": 10,
+            "out of touch": 5
+          }
+        },
+        {
+          "response": "I am inviting all my friends to the club for the winter ball.",
+          "traits": {
+            "community-oriented": 5,
+            "friendly": 5
+          }
+        },
+        {
+          "response": "Dancing is unprofessional and too titillating",
+          "traits": {
+            "hater": 10,
+            "stoic": 5,
+            "free-thinker": 5,
+            "shame": 4
+          }
+        }
+      ]
+    },
+    {
+      "question": "What do you do after a shower?",
+      "answers": [
+        {
+          "response": "Run wildly around to dry yourself off",
+          "traits": {
+            "feral": 15
+          }
+        },
+        {
+          "response": "Roll in a nice spread of butter, crudites, and mozzarella juice to moisturize my pores",
+          "traits": {
+            "maverick": 5,
+            "armor": 10,
+            "feral":10
+          }
+        },
+        {
+          "response": "Say 'That was a good one'",
+          "traits": {
+            "friendly": 5,
+            "laissez-faire": 10
+          }
+        },
+        {
+          "response": "High five the next showerer",
+          "traits": {
+            "community-oriented": 5,
+            "competitive": 10
+          }
+        },
+        {
+          "response": "Stare in the mirror for 2 hours so I can level up my charisma",
+          "traits": {
+            "charisma": 16,
+            "trying their best": 5,
+            "mysterious": 5
+          }
+        },
+        {
+          "response": "Start planning the next shower",
+          "traits": {
+            "planner": 10
+          }
+        }
+      ]
+    },
+    {
+      "question": "POV: A rat asks you out on a date -- what do you say?",
+      "answers": [
+        {
+          "response": "*blushes* oh word?",
+          "traits": {
+            "charisma": 5,
+            "stoic": 3,
+            "looking for love": 5
+          }
+        },
+        {
+          "response": "How about in 20 minutes? Where shall I meet you?",
+          "traits": {
+            "punctual": 5,
+            "looking for love": 10,
+            "curious": 5
+          }
+        },
+        {
+          "response": "Huh?",
+          "traits": {
+            "traditional": 10,
+            "indecisive": 10
+          }
+        },
+        {
+          "response": "You scurry away back to your little cave",
+          "traits": {
+            "smelly": 10,
+            "non-confrontational": 10,
+            "armor": 10,
+            "hermit": 15,
+            "mysterious": 5,
+            "feral":5
+          }
+        },
+        {
+          "response": "Lets go right now",
+          "traits": {
+            "demanding": 10,
+            "looking for love": 15,
+            "punctual": 10
+          }
+        },
+        {
+          "response": "Only if the seats are made of bell peppers",
+          "traits": {
+            "finer things in life": 10,
+            "out of touch": 5,
+            "traditional": 5
+          }
+        }
+      ]
+    },
+    {
+      "question": "POV: You accidentally said 'You too' to the waiter who said 'Enjoy your food'",
+      "answers": [
+        {
+          "response": "You ascend to the astral plane",
+          "traits": {
+            "non-confrontational": 10,
+            "mysterious": 5,
+            "shame": 10,
+            "out of touch": 5,
+            "mysterious": 3
+          }
+        },
+        {
+          "response": "You leave the establishment in tears",
+          "traits": {
+            "shame": 10,
+            "honest": 5
+          }
+        },
+        {
+          "response": "You immediately give the waiter your seat so they can enjoy your food",
+          "traits": {
+            "friendly": 10,
+            "charisma": 5
+          }
+        },
+        {
+          "response": "You tip the waiter generously so they will look the other way",
+          "traits": {
+            "finer things in life": 3,
+            "honest": 3,
+            "traditional": 5
+          }
+        }
+      ]
+    },
+    {
+      "question": "POV You are itchy while the dentist is working on your teeth",
+      "answers": [
+        {
+          "response": "No problem, it will go away eventually. My mind is strong",
+          "traits": {
+            "stoic": 15,
+            "trying their best": 5
+          }
+        },
+        {
+          "response": "Scratch the itch",
+          "traits": {
+            "traditional": 5,
+            "honest": 5,
+            "punctual": 10
+          }
+        },
+        {
+          "response": "You know it will not go away but choose to suffer",
+          "traits": {
+            "risk-taker": -3,
+            "indecisive": 5,
+            "trying their best": 4
+          }
+        },
+        {
+          "response": "Bite their fingers",
+          "traits": {
+            "feral": 17,
+            "demanding": 10,
+            "curious": 5
+          }
+        },
+        {
+          "response": "This will never happen because you have slathered yourself with hydrocortisone beforehand to prevent this.",
+          "traits": {
+            "planner": 10,
+            "creative": 3,
+            "trying their best": 5
+          }
+        }
+      ]
+    },
+    {
+      "question": "POV You see a stepped-upon skittle on the ground",
+      "answers": [
+        {
+          "response": "Yummmmmmmmmm",
+          "traits": {
+            "feral": 4,
+            "risk-taker": 3,
+            "free-thinker": 3
+          }
+        },
+        {
+          "response": "You do not like that",
+          "traits": {
+            "hater": 10
+          }
+        },
+        {
+          "response": "You make sure that no one is watching and then eat it",
+          "traits": {
+            "feral": 10,
+            "shame": 10
+          }
+        },
+        {
+          "response": "You throw it away so that others will not be tempted",
+          "traits": {
+            "friendly": 5,
+            "community-oriented": 5
+          }
+        },
+        {
+          "response": "You add it to your ground skittle collection",
+          "traits": {
+            "smelly": 3,
+            "collector": 10,
+            "curious": 5
+          }
+        }
+      ]
+    },
+    {
+      "question": "POV you have opened a letter in the mail, and it says you've committed tax fraud",
+      "answers": [
+        {
+          "response": "Of course it was me. Now I can choose to either face the consequences or fraudulently avoid them",
+          "traits": {
+            "indecisive": 5,
+            "creature of habit": 5,
+            "criminal": 30,
+            "out of touch": 5
+          }
+        },
+        {
+          "response": "That was my neighbor",
+          "traits": {
+            "community-oriented": 5
+          }
+        },
+        {
+          "response": "This letter does not affect me because I cannot read",
+          "traits": {
+            "literate": -5,
+            "out of touch": 5,
+            "feral":5
+          }
+        },
+        {
+          "response": "File an appeal immediately. I have never and would never do this to myself!",
+          "traits": {
+            "honest": 10,
+            "punctual": 10,
+            "literate": 5
+          }
+        },
+        {
+          "response": "The Head Taxologist must secretly be in love with me... I must act fast to secure their affections",
+          "traits": {
+            "maverick": 5,
+            "looking for love": 5
+          }
+        }
+      ]
+    },
+    {
+      "question": "POV you see an internet ad with a VERY handsome rat winking at you",
+      "answers": [
+        {
+          "response": "I must contact them immediately!!! you click on the ad",
+          "traits": {
+            "looking for love": 10
+          }
+        },
+        {
+          "response": "That's me brother",
+          "traits": {
+            "community-oriented": 5,
+            "mysterious": 6
+          }
+        },
+        {
+          "response": "Hey! That's me! Where did they get that photo",
+          "traits": {
+            "mysterious": 3,
+            "charisma": 5
+          }
+        },
+        {
+          "response": "You find this suspicious -- handsome rats don't wink",
+          "traits": {
+            "so smart": 10
+          }
+        },
+        {
+          "response": "I prefer a non-handsome rat myself. plus I am not sure if my webcam is on or not but they do not know me well enough to be winking.",
+          "traits": {
+            "free-thinker": 8,
+            "stoic": 5
+          }
+        },
+        {
+          "response": "You save a screenshot so that you can wistfully look at them anytime",
+          "traits": {
+            "looking for love": 5,
+            "creature of habit": 5
+          }
+        }
+      ]
+    },
+    {
+      "question": "POV you are walking home from your parmesan-pilates class when you notice a lost phone on the floor in front of you! What do you do?",
+      "answers": [
+        {
+          "response": "That's my phone, I put it there so I wouldn't be distracted",
+          "traits": {
+            "creative": 5,
+            "planner": 5,
+            "mysterious": 5
+          }
+        },
+        {
+          "response": "Use the phone to call your phone and make sure you didn't lose yours",
+          "traits": {
+            "maverick": 5
+          }
+        },
+        {
+          "response": "Immediately post fliers all over town so the owner can locate it",
+          "traits": {
+            "community-oriented": 10
+          }
+        },
+        {
+          "response": "Charge the phone then return it to its spot on the floor",
+          "traits": {
+            "community-oriented": 5,
+            "laissez-faire": 10
+          }
+        }
+      ]
+    },
+    {
+      "question": "POV you are at a comedy show and the comic points to you!!!!!",
+      "answers": [
+        {
+          "response": "Wimper",
+          "traits": {
+            "shame": 10,
+            "feral": 2
+          }
+        },
+        {
+          "response": "You stand up and point back confidently",
+          "traits": {
+            "charisma": 10,
+            "competitive": 10
+          }
+        },
+        {
+          "response": "You say 'I am sick when I do look on thee' (Shakespeare)",
+          "traits": {
+            "hater": 10
+          }
+        },
+        {
+          "response": "Hide behind a stranger",
+          "traits": {
+            "non-confrontational": 10,
+            "mysterious": 10
+          }
+        },
+        {
+          "response": "You preemptively laugh",
+          "traits": {
+            "planner": 10
+          }
+        }
+      ]
+    }
+  ]
+}

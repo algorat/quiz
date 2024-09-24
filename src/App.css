@@ -1,6 +1,67 @@
+@font-face {
+  font-family: "Alagard";
+  src: url(assets/fonts/alagard.ttf) format("truetype");
+}
+
+body {
+  background-color: rgb(194, 167, 184);
+}
+
 main {
-  max-width: 1000px;
-  margin: auto;
-  align-content: center;
-  margin-top: 7%;
+  margin: 24px auto;
+  position: relative;
+  width: 1024px;
+}
+
+.console {
+  position: absolute;
+  width: 1024px;
+  height: 925px;
+  top: 0px;
+  left: 0px;
+}
+
+.screen {
+  position: absolute;
+  left: 267px;
+  top: 127px;
+  width: 450px;
+  height: 725px;
+  border-radius: 24px;
+  background-color: rgb(34, 10, 90);
+  font-family: 'Alagard', sans-serif;
+}
+
+.question {
+  color: rgba(100, 255, 100);
+  border: none;
+
+  padding: 24px;
+}
+
+.answers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+button {
+  border: 1px solid rgba(100, 255, 100);
+  background-color: transparent;
+  color: rgba(100, 255, 100);
+  border-radius: 4px;
+  padding: 20px;
+  font-family: 'Alagard', sans-serif;
+  font-size: 16px;
+  transition: background 200ms;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(59, 55, 108);
+}
+
+p {
+  margin: 0 0 12px;
+  font-size: 30px;
 }

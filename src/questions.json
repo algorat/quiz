@@ -210,7 +210,7 @@
           "response": "I shall find the nearest bank and ask if they will allow me a small salary, which I will use to purchase one home and twenty groceries. From there, I shall earn a living through honest means and honest work.",
           "traits": {
             "traditional": 5,
-            "risk-taker": 5,
+            "risk-taker": 3,
             "honest": 5,
             "literate": 5
           }
@@ -267,7 +267,7 @@
         {
           "response": "I brush only",
           "traits": {
-            "risk-taker": 5
+            "risk-taker": 3
           }
         },
         {
@@ -279,7 +279,6 @@
         {
           "response": "I only floss",
           "traits": {
-            "risk-taker": 8,
             "smelly": 10
           }
         },

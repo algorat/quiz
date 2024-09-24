@@ -7,6 +7,7 @@ import {
   percentFeral,
   updateTraits,
 } from "./scoring";
+import consoleImg from './assets/console.png';
 
 import { recursiveCount } from "./test";
 
@@ -14,28 +15,21 @@ function Question({ questionData, qIdx, nextQuestion }) {
   const { question, answers } = questionData;
 
   return (
-    <div>
-      <fieldset>
-        <legend>{question}</legend>
+    <div className="question" role="radiogroup">
+      <p role="legend">{question}</p>
+      <div class="answers">
         {answers.map(({ response, traits }, aIdx) => {
           const id = `question${qIdx}, response${aIdx}`;
           const onClick = () => {
             nextQuestion(traits);
           };
           return (
-            <div key={id}>
-              <input
-                type="radio"
-                id={id}
-                name={qIdx}
-                onClick={onClick}
-                key={id}
-              ></input>
-              <label htmlFor={id}>{response}</label>
-            </div>
+            <button role="radio" key={id} id={id} name={qIdx} onClick={onClick}>
+              {response}
+            </button>
           );
         })}
-      </fieldset>
+      </div>
     </div>
   );
 }
@@ -75,11 +69,14 @@ export default function App() {
 
   return (
     <main>
-      <Question
-        questionData={data.questions[currentQuestion]}
-        qIdx={currentQuestion}
-        nextQuestion={nextQuestion}
-      />
+      <img className="console" src={consoleImg} />
+      <div className="screen">
+        <Question
+          questionData={data.questions[currentQuestion]}
+          qIdx={currentQuestion}
+          nextQuestion={nextQuestion}
+        />
+      </div>
     </main>
   );
 }

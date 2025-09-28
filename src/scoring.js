@@ -48,6 +48,7 @@ function sumData() {
 }
 
 const maxScores = sumData();
+console.log(maxScores);
 
 function defaultScoring(targetTraits, traits) {
   const scores = [];
@@ -59,6 +60,7 @@ function defaultScoring(targetTraits, traits) {
     }
     scores.push(score / maxScore);
   }
+  console.log(targetTraits, scores);
   const totalScore = scores.reduce((a, b) => a + b, 0);
   return (totalScore / scores.length) * 100;
 }
@@ -213,6 +215,7 @@ export function computeHighestMatch(traits) {
       const func = scoringFunctions[id];
       score = func(traits);
     } else if (ratType.attributes) {
+      console.log('id', id);
       score = defaultScoring(ratType.attributes, traits);
     } else {
       console.warn("no way to score:", id);
@@ -231,7 +234,7 @@ export function computeHighestMatch(traits) {
     }
   }
 
-  // console.log("debuggingScores", debuggingScores);
+  console.log("debuggingScores", debuggingScores);
 
   if (maxMatch === null) {
     console.warn("no match?");

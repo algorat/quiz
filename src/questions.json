@@ -14,7 +14,6 @@
           "response": "A Smelly-good Fragrant gorgonzola blue cheese crisp with the mold of the finest blend",
           "traits": {
             "smelly": 5,
-            "risk-taker": -5,
             "feral": 4
           }
         },
@@ -202,7 +201,6 @@
             "traditional": 10,
             "so smart": 5,
             "creature of habit": 10,
-            "risk-taker": -5,
             "demanding": 10
           }
         },
@@ -696,7 +694,6 @@
         {
           "response": "You know it will not go away but choose to suffer",
           "traits": {
-            "risk-taker": -3,
             "indecisive": 5,
             "trying their best": 4
           }

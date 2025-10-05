@@ -3,37 +3,47 @@
   src: url(assets/fonts/alagard.ttf) format("truetype");
 }
 
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
-  background: url(assets/ratsandcheese.jpg);
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 main {
-  margin: 24px auto;
   position: relative;
-  width: 1024px;
 }
 
 .console {
-  position: absolute;
-  width: 1024px;
-  height: 925px;
-  top: 0px;
-  left: 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .screen {
   position: absolute;
-  left: 267px;
-  top: 127px;
-  width: 450px;
-  height: 725px;
-  border-radius: 24px;
-  background-color: rgb(34, 10, 90);
+  border-radius: 1vw;
+  background-color: rgb(240, 232, 223);
   font-family: 'Alagard', sans-serif;
+  overflow-y: auto;
 }
 
+
 .question {
-  color: rgba(100, 255, 100);
+  color: rgb(0, 0, 0);
   border: none;
 
   padding: 24px;
@@ -45,10 +55,70 @@ main {
   gap: 12px;
 }
 
+/* Portrait: aspect ratio less than 3:4 */
+@media (max-aspect-ratio: 3/4) {
+  .console {
+    background-image: url(assets/consoles/portrait.webp);
+    width: 140vw;
+    left: -17vw;
+    margin-top: -4vw;
+    aspect-ratio: 925 / 1024;
+  }
+
+  .screen {
+    width: 60.5vw;
+    height: 97vw;
+    left: 37vw;
+    top: 29.5vw;
+  }
+  
+  .answers {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+  }
+}
+
+/* Landscape: aspect ratio greater than 4:3 */
+@media (min-aspect-ratio: 4/3) {
+  .console {
+    width: 115vw;
+    margin-left: 1vw;
+    margin-top: -4vw;
+    aspect-ratio: 1521 / 861;
+    background-image: url(assets/consoles/landscape.webp);
+  }
+
+  .screen {
+    width: 73vw;
+    height: 48vw;
+    left: 20.5vw;
+    top: 6.4vw;
+  }
+}
+
+/* Square: aspect ratio between 3:4 and 4:3 */
+@media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 4/3) {
+  .console {
+    background-image: url(assets/consoles/square.webp);
+    width: 140vw;
+    margin-left: 4vw;
+    margin-top: -4vw;
+    aspect-ratio: 1248/1707;
+  }
+
+  .screen {
+    width: 74.5vw;
+    height: 75vw;
+    left: 34.5vw;
+    top: 56.5vw;
+  }
+}
+
 button {
-  border: 1px solid rgba(100, 255, 100);
+  border: 1px solid rgb(0, 0, 0);
   background-color: transparent;
-  color: rgba(100, 255, 100);
+  color: rgb(0, 0, 0);
   border-radius: 4px;
   padding: 20px;
   font-family: 'Alagard', sans-serif;
@@ -58,10 +128,14 @@ button {
 
 button:hover {
   cursor: pointer;
-  background-color: rgb(59, 55, 108);
+  background-color: rgb(198, 193, 253);
 }
 
 p {
   margin: 0 0 12px;
   font-size: 30px;
+}
+
+.result {
+  padding: 24px;
 }

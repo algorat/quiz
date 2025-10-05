@@ -7,7 +7,6 @@ import {
   percentFeral,
   updateTraits,
 } from "./scoring";
-import consoleImg from './assets/console.png';
 
 import { recursiveCount } from "./test";
 
@@ -17,7 +16,7 @@ function Question({ questionData, qIdx, nextQuestion }) {
   return (
     <div className="question" role="radiogroup">
       <p role="legend">{question}</p>
-      <div class="answers">
+      <div className="answers">
         {answers.map(({ response, traits }, aIdx) => {
           const id = `question${qIdx}, response${aIdx}`;
           const onClick = () => {
@@ -41,7 +40,7 @@ function Result({ traits }) {
   console.log("your match", result, traits);
   const feralNess = percentFeral(traits);
   return (
-    <div>
+    <div className="result">
       <h2>You are the {result.name}</h2>
       <p>{result.description}</p>
       <ul>
@@ -50,6 +49,7 @@ function Result({ traits }) {
         })}
       </ul>
       <p>You are {feralNess * 100}% feral</p>
+      <button onClick={() => window.location.reload()}>Reset Quiz</button>
     </div>
   );
 }
@@ -63,19 +63,23 @@ export default function App() {
     setCurrentQuestion(currentQuestion + 1);
   };
 
+  let contents = '';
+
   if (currentQuestion >= data.questions.length) {
-    return <Result traits={currentTraits} />;
+    contents = <Result traits={currentTraits} />;
+  } else {
+    contents = <Question
+      questionData={data.questions[currentQuestion]}
+      qIdx={currentQuestion}
+      nextQuestion={nextQuestion}
+    />
   }
 
   return (
     <main>
-      <img className="console" src={consoleImg} />
+      <div className="console" />
       <div className="screen">
-        <Question
-          questionData={data.questions[currentQuestion]}
-          qIdx={currentQuestion}
-          nextQuestion={nextQuestion}
-        />
+        {contents}
       </div>
     </main>
   );

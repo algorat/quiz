@@ -29,7 +29,7 @@
       "id": "mouse",
       "name": "Mouse Rat",
       "attributes": ["friendly", "charisma"],
-      "description": "So small and demure! You are daintier than your counterparts but no less a tour-de-force. You can nibble your way through any situation and charm your way through any conversation.",
+      "description": "So small an demure! You are dantier than your counterparts but no less a tour-de-force. You can nibble your way through any situation and charm your self through any conversation.",
       "friend": [],
       "enemies": []
     },
@@ -111,7 +111,7 @@
     },
 
     {
-      "id": "truthknowledge",
+      "id": "truth",
       "name": "Rat of Truth and Knowledge",
       "attributes": ["literate", "honest", "so smart", "free-thinker"],
       "description": "There is nary a rat as smart as thou! Thy thoughts reak of pure knowing, and thine ego is pure. Lest any rat of feeble mine feign to beseech thee for an answer to a riddle or to lifes mysteries, you would humbly provide the answer in such a noble and steadfast manner.",
@@ -201,7 +201,7 @@
 
     {
       "id": "four",
-      "name": "4x4px Rat",
+      "name": "2x2px Rat",
       "description": "You live life simply. When others look into your eyes, they see a peace and tranquility that has been brought about by existing simply and by not forming thoughts. They are inspired by what they see. Do not read too much into this result.",
       "friend": [],
       "enemies": []
@@ -211,7 +211,7 @@
       "id": "cowappreciator",
       "name": "Cow Appreciator",
       "attributes": ["dairy", "creative"],
-      "description": "You believe dairy is the highest form of art and cows are the artist. You love to watch and appreciate cows. You wish one day to be like them. Oh, how you would love to sit in pastures. How you long to have spots, hooves, and horns. You admire their aesthetic and their sense of self, as they serve you with endless inspiration for your creative persuits. The cows are the muses of your life and of your heart",
+      "description": "You believe dairy is the highest form of art and cows are the artist. You love to watch and appreciate cows, you wish one day to be like them. How you would love to sit in the pastures. How you long to have spots, hooves, and hornes. You admire their aesthetic and their sense of self, and they serve as endless inspiration for your creative persuits. The cows are the muses of your life and of your heart",
       "friend": [],
       "enemies": []
     },

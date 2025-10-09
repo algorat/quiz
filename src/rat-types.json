@@ -186,8 +186,8 @@
       "name": "A Truly Illustrious Rat",
       "attributes": ["finer things in life", "collector"],
       "description": "You are a believer in the finer things in life, and in stopping to smell the roses.",
-      "friend": [],
-      "enemies": []
+      "friend": ["pickleleaf","pea","gardens","cowappreciator","swivel","vaseline"],
+      "enemies": ["four","doesntknow","itch"]
     },
 
     {
